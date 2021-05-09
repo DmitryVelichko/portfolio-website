@@ -219,3 +219,8 @@ nav { display: none; }
         margin-left: 2em;
     }
 } 
+
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+}
