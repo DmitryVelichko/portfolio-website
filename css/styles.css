@@ -121,7 +121,7 @@ h3{ font-size: var(--fs-h3)}
     padding: 0.25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
-    font-weight: bolder; /* Added!!! Fix fonts later */
+    font-weight: 500; /*Added!!! Fix fonts later delete exta weight numbers in fonts link*/
 }
 
 /* Header */
@@ -240,12 +240,24 @@ nav { display: none; }
         grid-column-gap: 2em;
     }
 
-    .section__titile--about,
-    .section__subtitle--about {
+    .section__titile--about {
         grid-area: title;
+    }
+
+    .section__subtitle--about {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
+
     }
 
     .about-me__img {
         grid-area: img;
+        position: relative;
+        z-index: 2;
     }
 }
