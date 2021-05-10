@@ -124,6 +124,12 @@ h3{ font-size: var(--fs-h3)}
     font-weight: 500; /*Added!!! Fix fonts later delete exta weight numbers in fonts link*/
 }
 
+.section__subtitle--work {
+    color: var(--clr-accent);
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
 /* Header */
 
 nav { display: none; }
@@ -268,4 +274,9 @@ nav { display: none; }
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
