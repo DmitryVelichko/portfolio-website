@@ -302,3 +302,7 @@ nav { display: none; }
     transform: scale(1.2);
     opacity: 0.75;
 }
+
+.footer {
+    background: #111;
+}
