@@ -330,3 +330,6 @@ nav { display: none; }
     text-decoration: underline;
 }
 
+.social-list {
+    list-style: none;
+}
