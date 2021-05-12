@@ -153,6 +153,13 @@ header {
     z-index: 100;
     
     transform: translateX(0%);
+    transition: transform 250ms cubic-bezier(0.5, 0, 0.5. 1);
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    height: 100%;
 }
 
 /* Intro section*/
