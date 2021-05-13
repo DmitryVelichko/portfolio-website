@@ -139,7 +139,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .nav {
@@ -188,6 +188,12 @@ header {
     top: 1em;
     z-index: 1000;
 }
+
+.nav-open .nav {
+    transform: translateX(0);
+}
+
+
 
 .hamburger {
     display: block; 
