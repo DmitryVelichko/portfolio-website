@@ -180,9 +180,13 @@ header {
 
 .nav-toggle {
     background: transparent;
-    padding: 0.25em;
+    padding: 0.5em;
     border: 0;
     cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
 }
 
 .hamburger {
