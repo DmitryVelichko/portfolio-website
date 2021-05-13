@@ -180,6 +180,11 @@ header {
 
 .hamburger {
     background: var(--clr-dark);
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    display: block; 
+    position: relative;
 }
 
 
