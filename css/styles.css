@@ -182,6 +182,7 @@ header {
     background: transparent;
     padding: 0.25em;
     border: 0;
+    cursor: pointer;
 }
 
 .hamburger {
