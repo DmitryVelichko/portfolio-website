@@ -178,6 +178,12 @@ header {
     color: var(--clr-accent);
 }
 
+.nav-toggle {
+    background: transparent;
+    padding: 0.25em;
+    border: 0;
+}
+
 .hamburger {
     display: block; 
     position: relative;
@@ -190,6 +196,7 @@ header {
     width: 2em;
     height: 3px;
     border-radius: 1em;
+    transition: transform 250ms ease-in-out;
 }
 
 .hamburger::before,
@@ -198,8 +205,11 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    background: var(--clr-dark);
 }
+
+.hamburger::before { top: 6px; }
+
+.hamburger::after { bottom: 6px; }
 
 /* Intro section*/
 
