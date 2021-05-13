@@ -178,6 +178,11 @@ header {
     color: var(--clr-accent);
 }
 
+.hamburger {
+    background: var(--clr-dark);
+}
+
+
 /* Intro section*/
 
 .intro {
